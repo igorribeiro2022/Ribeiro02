@@ -15,7 +15,7 @@ function multiplyList(arrayNumeros, multiplicador){
     for (let i = 0 ; i < arrayNumeros.length ; i++){
         result.push(arrayNumeros[i] * multiplicador)
     }
-    console.log(result)
+    console.table(result)
     return result
 }
 
